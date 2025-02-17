@@ -17,6 +17,7 @@ void main(void) {
     if (batata>0){
       printf("btn pressed \n");
       g_cnt++;
+      batata = 0;
     }
   
     if (g_cnt >= 8){
