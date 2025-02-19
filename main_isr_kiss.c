@@ -1,6 +1,6 @@
 #include "asf.h"
 
-int volatile batata;
+volatile int batata;
 
 // This code creates a progress bar on an OLED screen that
 // increases when the button is pressed.
